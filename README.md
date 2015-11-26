@@ -29,7 +29,7 @@ gulp.task('highlight-snippet', function () {
     .pipe(highlight({
        language: "html",
        configure: {},
-       }))
+    }))
     .pipe(gulp.dest("./docs"));
 });
 
