@@ -1,0 +1,36 @@
+{
+  "name": "gulp-snippet-highlight",
+  "version": "1.0.0",
+  "description": "Uses highlightjs to compile single html snippets.",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kzima/gulp-snippet-highlight.git"
+  },
+  "author": {
+    "name": "Kris Zima",
+    "email": "kris@mosquito.ie",
+    "url": "https://github.com/kzima"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha",
+    "watch": "mocha -w"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "gulpplugin highlightjs code syntax vuestrap"
+  ],
+  "dependencies": {
+    "gulp-util": "~3.0.4",
+    "highlight.js": "~8.4.0",
+    "through2": "~0.6.3"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  }
+}
