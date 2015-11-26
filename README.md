@@ -26,10 +26,10 @@ var highlight = require('gulp-snippet-highlight');
 
 gulp.task('highlight-snippet', function () {
   return gulp.src("./src/snippet.html")
-        .pipe(highlight({
-         language: "html",
-         configure: {},
-         }))
+    .pipe(highlight({
+       language: "html",
+       configure: {},
+       }))
     .pipe(gulp.dest("./docs"));
 });
 
